@@ -1,0 +1,23 @@
+{
+  "documentation": {
+    "paths": [
+      "README.md",
+      "AGENTS.md"
+    ],
+    "changelog": null
+  },
+  "delivery": {
+    "mode": "per-pr",
+    "mergeGate": {
+      "preMerge": [],
+      "perCandidate": []
+    },
+    "candidateSchedule": "0 */6 * * *",
+    "deploy": {
+      "adapter": "command",
+      "project": null,
+      "uat": null,
+      "production": null
+    }
+  }
+}
